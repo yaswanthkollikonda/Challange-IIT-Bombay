@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.supplies-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.buttons-section {
+    display: flex;
+    gap: 5px;
+}
+button {
+    background-color: White;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+button:disabled {
+    background-color: white;
+    color: black;
+    cursor: not-allowed;
+}
+.table-section {
+    width: 100%
+}
+table {
+    width:100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.selected {
+    background-color:lightblue;
+}
